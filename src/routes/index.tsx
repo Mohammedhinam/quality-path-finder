@@ -11,7 +11,7 @@ import { Resume } from "@/components/portfolio/Resume";
 import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
 
-const title = "[YOUR NAME] | IT Undergraduate & Aspiring QA Engineer";
+const title = "Mohammed Hinamul | IT Undergraduate & Aspiring QA Engineer";
 const description =
   "Personal portfolio of an Information Technology undergraduate interested in Software Quality Assurance, software testing, web development, and technology.";
 
@@ -33,7 +33,7 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Person",
-          name: "[YOUR NAME]",
+          name: "Mohammed Hinamul",
           jobTitle: "IT Undergraduate | Aspiring QA Engineer",
           alumniOf: "Sri Lanka Institute of Information Technology (SLIIT)",
           address: { "@type": "PostalAddress", addressCountry: "Sri Lanka" },

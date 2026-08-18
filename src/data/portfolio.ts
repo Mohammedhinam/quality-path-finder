@@ -3,17 +3,19 @@
  * Edit everything about the portfolio here. Placeholders are marked with [ ].
  */
 
+import cvAsset from "@/assets/Hinamul_QA.pdf.asset.json";
+
 export const profile = {
-  name: "[YOUR NAME]",
-  shortName: "[YOUR NAME]",
+  name: "Mohammed Hinamul",
+  shortName: "Mohammed Hinamul",
   tagline: "IT Undergraduate | Aspiring QA Engineer",
   intro:
     "I am an Information Technology undergraduate passionate about Software Quality Assurance, software testing, web technologies, and building reliable digital solutions.",
-  email: "YOUR_EMAIL@example.com",
-  github: "https://github.com/YOUR_USERNAME",
-  linkedin: "YOUR_LINKEDIN_URL",
+  email: "mohamedhinam10@gmail.com",
+  github: "https://github.com/Mohammedhinam",
+  linkedin: "https://www.linkedin.com/in/mohammed-hinamul/",
   location: "Sri Lanka",
-  cvPath: "/documents/Your-CV.pdf",
+  cvPath: cvAsset.url,
 };
 
 export const about = {
@@ -175,12 +177,12 @@ export const education = [
     degree: "BSc (Hons) Information Technology",
     institution: "Sri Lanka Institute of Information Technology (SLIIT)",
     status: "Undergraduate",
-    duration: "[START YEAR] – Present",
+    duration: "2023 – Present",
     details: [
-      { label: "Expected Graduation", value: "[YEAR]" },
+      { label: "Expected Graduation", value: "2027" },
       {
         label: "Relevant Coursework",
-        value: "[Add coursework, e.g. Software Quality Assurance, Databases, Web Development]",
+        value: "Software Quality Assurance, Databases, Web Development",
       },
       { label: "Academic Achievements", value: "[Add achievements here]" },
     ],
