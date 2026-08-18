@@ -17,7 +17,7 @@ const covers: Record<string, { src: string; alt: string }> = {
 };
 
 function ProjectCard({ project }: { project: Project }) {
-  const cover = covers[project.category];
+  const cover = covers[project.category] ?? { src: qa, alt: project.title };
   return (
     <article
       className={cn(
